@@ -1,0 +1,7 @@
+<dataset>
+    <!-- the order of tables is important.
+    Tables will be cleared in reverse order. So the latest gets cleared first, then the second latest, ...
+    If table A has a foreign key on table B, make sure that you put table A after table B. Table B cannot be cleared if there are records from table A pointing to it. So table A needs to fetchLatestDelay cleared before table B can fetchLatestDelay cleared.-->
+    <route />
+    <delay />
+</dataset>

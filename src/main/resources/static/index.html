@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <title>Train delay watcher</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.1/handlebars.min.js"></script>
+
+    <script>
+        var checkDelay = function() {
+            $.getJSON("/api/route/", function (data) {
+                // beautify the data
+                for (var i = 0; i < data.length; i++) {
+                    data[i].currentDelay  = ("" + (data[i].currentDelay / 60)).substring(0,3); // show in minutes, not in seconds
+                    data[i].averageDelay  = ("" + (data[i].averageDelay / 60)).substring(0,3); // show in minutes, not in seconds
+                    data[i].departureTime = data[i].departureTime.substring(0,5);
+                    data[i].isLate = data[i].currentDelay > 0;
+                }
+
+                var source = $("#route-template").html();
+                var template = Handlebars.compile(source);
+                var html = template({routes: data});
+                $("#routes").html(html);
+                $(".check-again").on("click", checkDelay);
+            });
+        };
+
+        $(document).ready(checkDelay);
+    </script>
+
+    <style>
+        .late {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<a class="btn btn-outline-primary float-right manage" href="manage.html">Manage</a>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Train delay watcher</h1>
+    <p class="lead">Is your train running late today?</p>
+</div>
+<div class="container">
+    <div id="routes">
+        <p class="loading">Loading...</p>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="realdolmen.jpg" alt="" height="100px">
+            </div>
+            <div class="col-6 col-md">
+                <h5>Start your future now!</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="mailto:stijn.hooft@realdolmen.com">stijn.hooft@realdolmen.com</a>
+                    </li>
+                    <li><a class="text-muted" href="https://jobs.realdolmen.com">Website</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- templates -->
+<script id="route-template" type="text/x-handlebars-template">
+    <div class="card-deck mb-3 text-center">
+        {{#each routes}}
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">{{departureStation}} &#x25B6; {{arrivalStation}}</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title"><span class="departure-time">{{departureTime}}</span>
+                    {{#if isLate}}
+                    <small class="current-delay late">+{{currentDelay}}</small>
+                    {{else}}
+                    <small class="current-delay">+{{currentDelay}}</small>
+                    {{/if}}
+                </h1>
+                <p class="average-delay">Average delay: {{averageDelay}} minutes</p>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary check-again">Check again</button>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+
+</body>
+</html>

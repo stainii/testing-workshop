@@ -1,0 +1,21 @@
+<dataset>
+
+    <route
+            id="100"
+            departure_station="Zottegem"
+            departure_time="07:24:00"
+            arrival_station="Brussel-Noord"/>
+    <route
+            id="101"
+            departure_station="Brussel-Noord"
+            departure_time="12:45:00"
+            arrival_station="Gent-Sint-Pieters"/>
+
+    <route
+            id="102"
+            departure_station="Gent-Sint-Pieters"
+            departure_time="17:14:00"
+            arrival_station="Zottegem"/>
+    <delay />
+
+</dataset>

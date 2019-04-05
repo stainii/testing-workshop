@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <title>Train delay watcher</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.1/handlebars.min.js"></script>
+
+    <script>
+        var deleteRoute = function(id, callback) {
+            $.ajax({
+                url: '/api/route/' + id + '/',
+                type: 'DELETE',
+                success: function(result) {
+                    callback();
+                },
+                error: function(error) {
+                    callback(error.responseText);
+                }
+            });
+        };
+
+        var createRoute = function(departureStation, arrivalStation, departureTime, callback) {
+            $.ajax({
+                url: '/api/route/',
+                type: 'POST',
+                data: JSON.stringify({
+                    departureStation: departureStation,
+                    arrivalStation: arrivalStation,
+                    departureTime: departureTime
+                }),
+                contentType: "application/json",
+                success: function(result) {
+                    callback();
+                },
+                error: function(error) {
+                    callback(error.responseText);
+                }
+            });
+        };
+
+        var getRoutes = function (optionalError) {
+            $.getJSON("/api/route/", function (data) {
+                // beautify the data
+                for (var i = 0; i < data.length; i++) {
+                    data[i].departureTime = data[i].departureTime.substring(0,5);
+                }
+
+                var source = $("#route-template").html();
+                var template = Handlebars.compile(source);
+                var html = template({routes: data, error: optionalError});
+                $("#routes").html(html);
+
+                $(".delete").on("click", function(event) {
+                    deleteRoute(event.target.id, getRoutes);
+                });
+                $(".create").on("click", function() {
+                   createRoute($("#newDepartureStation").val(), $("#newArrivalStation").val(), $("#newDepartureTime").val(), getRoutes);
+                });
+            });
+        };
+
+        $(document).ready(function() {
+            getRoutes();
+        });
+    </script>
+</head>
+<body>
+<a class="btn btn-primary float-right back" href="index.html">Back</a>
+<div class="container">
+    <div id="routes">
+        <p class="loading">Loading...</p>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="realdolmen.jpg" alt="" height="100px">
+            </div>
+            <div class="col-6 col-md">
+                <h5>Start your future now!</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="mailto:stijn.hooft@realdolmen.com">stijn.hooft@realdolmen.com</a>
+                    </li>
+                    <li><a class="text-muted" href="https://jobs.realdolmen.com">Website</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- templates -->
+<script id="route-template" type="text/x-handlebars-template">
+
+    {{#if error}}
+    <div class="alert alert-danger" role="alert">
+        {{error}}
+    </div>
+    {{/if}}
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Departure station</th>
+                <th scope="col">Arrival station</th>
+                <th scope="col">Time</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each routes}}
+            <tr>
+                <td>{{departureStation}}</td>
+                <td>{{arrivalStation}}</td>
+                <td>{{departureTime}}</td>
+                <td><button type="button" class="btn btn-danger delete" id="{{id}}">Delete</button></td>
+            </tr>
+            {{/each}}
+            <tr>
+                <td><input id="newDepartureStation"></td>
+                <td><input id="newArrivalStation"></td>
+                <td><input type="time" id="newDepartureTime"></td>
+                <td><button type="button" class="btn btn-success create">Add</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+</script>
+
+</body>
+</html>

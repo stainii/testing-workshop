@@ -1,0 +1,384 @@
+{
+  "version": "1.1",
+  "timestamp": "1554128479",
+  "connection": [
+    {
+      "id": "0",
+      "departure": {
+        "delay": "20",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554106320",
+        "vehicle": "BE.NMBS.S32281",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/S32281",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "left": "1",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "60",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554109680",
+        "vehicle": "BE.NMBS.S32281",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "arrived": "1",
+        "walking": "0"
+      },
+      "duration": "3360",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "1",
+      "departure": {
+        "delay": "60",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554107220",
+        "vehicle": "BE.NMBS.IC2333",
+        "platform": "10",
+        "platforminfo": {
+          "name": "10",
+          "normal": "0"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC2333",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "left": "1",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554109920",
+        "vehicle": "BE.NMBS.IC2333",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "arrived": "1",
+        "walking": "0"
+      },
+      "duration": "2700",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "2",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554109920",
+        "vehicle": "BE.NMBS.S32282",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/S32282",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "left": "1",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "60",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554113280",
+        "vehicle": "BE.NMBS.S32282",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "arrived": "1",
+        "walking": "0"
+      },
+      "duration": "3360",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "3",
+      "departure": {
+        "delay": "120",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554110820",
+        "vehicle": "BE.NMBS.IC2334",
+        "platform": "9",
+        "platforminfo": {
+          "name": "9",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC2334",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "left": "1",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554113520",
+        "vehicle": "BE.NMBS.IC2334",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "arrived": "1",
+        "walking": "0"
+      },
+      "duration": "2700",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "4",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554113520",
+        "vehicle": "BE.NMBS.S32283",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/S32283",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "left": "1",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "60",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554116880",
+        "vehicle": "BE.NMBS.S32283",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "arrived": "1",
+        "walking": "0"
+      },
+      "duration": "3360",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "5",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554114420",
+        "vehicle": "BE.NMBS.IC2335",
+        "platform": "9",
+        "platforminfo": {
+          "name": "9",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC2335",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "left": "1",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554117120",
+        "vehicle": "BE.NMBS.IC2335",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "arrived": "1",
+        "walking": "0"
+      },
+      "duration": "2700",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    }
+  ]
+}

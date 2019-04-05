@@ -1,0 +1,14 @@
+<dataset>
+    <route
+            id="100"
+            departure_station="Gent-Sint-Pieters"
+            departure_time="10:00:00"
+            arrival_station="Brussel-Noord"/>
+
+    <delay
+            id="200"
+            route_id="100"
+            delay="0"
+            creation_date_time="2019-03-06 07:12:16"
+            departure_date_time="2019-03-06 07:24:00"/>
+</dataset>

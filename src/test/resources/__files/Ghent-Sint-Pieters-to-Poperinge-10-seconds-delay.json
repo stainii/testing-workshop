@@ -1,0 +1,446 @@
+{
+  "version": "1.1",
+  "timestamp": "1553527897",
+  "connection": [
+    {
+      "id": "0",
+      "departure": {
+        "delay": "10",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1552048560",
+        "vehicle": "BE.NMBS.IC712",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190308/IC712",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Poperinge",
+        "stationinfo": {
+          "locationX": "2.736343",
+          "locationY": "50.854449",
+          "id": "BE.NMBS.008896735",
+          "@id": "http://irail.be/stations/NMBS/008896735",
+          "standardname": "Poperinge",
+          "name": "Poperinge"
+        },
+        "time": "1552053120",
+        "vehicle": "BE.NMBS.IC712",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "4560",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "1",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1552052160",
+        "vehicle": "BE.NMBS.IC713",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190308/IC713",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Poperinge",
+        "stationinfo": {
+          "locationX": "2.736343",
+          "locationY": "50.854449",
+          "id": "BE.NMBS.008896735",
+          "@id": "http://irail.be/stations/NMBS/008896735",
+          "standardname": "Poperinge",
+          "name": "Poperinge"
+        },
+        "time": "1552056720",
+        "vehicle": "BE.NMBS.IC713",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "4560",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "2",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1552055760",
+        "vehicle": "BE.NMBS.IC714",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190308/IC714",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Poperinge",
+        "stationinfo": {
+          "locationX": "2.736343",
+          "locationY": "50.854449",
+          "id": "BE.NMBS.008896735",
+          "@id": "http://irail.be/stations/NMBS/008896735",
+          "standardname": "Poperinge",
+          "name": "Poperinge"
+        },
+        "time": "1552060320",
+        "vehicle": "BE.NMBS.IC714",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "4560",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "3",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1552056000",
+        "vehicle": "BE.NMBS.P8997",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190308/P8997",
+        "direction": {
+          "name": "Courtrai / Kortrijk"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Poperinge",
+        "stationinfo": {
+          "locationX": "2.736343",
+          "locationY": "50.854449",
+          "id": "BE.NMBS.008896735",
+          "@id": "http://irail.be/stations/NMBS/008896735",
+          "standardname": "Poperinge",
+          "name": "Poperinge"
+        },
+        "time": "1552062180",
+        "vehicle": "BE.NMBS.P8082",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "6180",
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "time": "1552057980",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "arrived": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Courtrai / Kortrijk"
+              },
+              "vehicle": "BE.NMBS.P8997",
+              "departureConnection": "http://irail.be/connections/8896008/20190308/P8997"
+            },
+            "departure": {
+              "time": "1552059720",
+              "platform": "?",
+              "platforminfo": {
+                "name": "?",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "left": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Poperinge"
+              },
+              "vehicle": "BE.NMBS.P8082",
+              "departureConnection": "http://irail.be/connections/8896008/20190308/P8082",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+              }
+            },
+            "timeBetween": "1740",
+            "station": "Kortrijk",
+            "stationinfo": {
+              "locationX": "3.264549",
+              "locationY": "50.824506",
+              "id": "BE.NMBS.008896008",
+              "@id": "http://irail.be/stations/NMBS/008896008",
+              "standardname": "Kortrijk",
+              "name": "Kortrijk"
+            },
+            "vehicle": "BE.NMBS.P8997",
+            "direction": {
+              "name": "Courtrai / Kortrijk"
+            }
+          }
+        ]
+      },
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "4",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1552059360",
+        "vehicle": "BE.NMBS.IC715",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190308/IC715",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Poperinge",
+        "stationinfo": {
+          "locationX": "2.736343",
+          "locationY": "50.854449",
+          "id": "BE.NMBS.008896735",
+          "@id": "http://irail.be/stations/NMBS/008896735",
+          "standardname": "Poperinge",
+          "name": "Poperinge"
+        },
+        "time": "1552063920",
+        "vehicle": "BE.NMBS.IC715",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "4560",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "5",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1552059660",
+        "vehicle": "BE.NMBS.P8008",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190308/P8008",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Poperinge",
+        "stationinfo": {
+          "locationX": "2.736343",
+          "locationY": "50.854449",
+          "id": "BE.NMBS.008896735",
+          "@id": "http://irail.be/stations/NMBS/008896735",
+          "standardname": "Poperinge",
+          "name": "Poperinge"
+        },
+        "time": "1552064580",
+        "vehicle": "BE.NMBS.P8008",
+        "platform": "?",
+        "platforminfo": {
+          "name": "?",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Poperinge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "4920",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    }
+  ]
+}

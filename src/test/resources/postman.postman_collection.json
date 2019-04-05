@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "1dccff10-d1ea-46e9-9a98-15466f492c2b",
+		"name": "Testing demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "iRail connections",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4857b270-7b25-4deb-9d21-1df9b3bece5b",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.irail.be/connections/?from=Brussel-Noord&date=010419&time=1000&arrdep=departure&to=Zottegem&format=json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"irail",
+						"be"
+					],
+					"path": [
+						"connections",
+						""
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "Brussel-Noord"
+						},
+						{
+							"key": "date",
+							"value": "010419"
+						},
+						{
+							"key": "time",
+							"value": "1000"
+						},
+						{
+							"key": "arrdep",
+							"value": "departure"
+						},
+						{
+							"key": "to",
+							"value": "Zottegem"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all routes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bdaa83d1-b563-4151-9d9b-7a0f6b8658cd",
+						"exec": [
+							"pm.test(\"Check contents\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.eql([{",
+							"        \"id\": 1,",
+							"        \"departureStation\": \"Gent-Sint-Pieters\",",
+							"        \"departureTime\": \"10:00:00\",",
+							"        \"arrivalStation\": \"Brussel-Noord\",",
+							"        \"currentDelay\": 120,",
+							"        \"averageDelay\": 61",
+							"    }]);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/route/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"route",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

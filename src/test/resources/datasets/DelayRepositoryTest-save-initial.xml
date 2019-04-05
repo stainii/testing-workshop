@@ -1,0 +1,9 @@
+<dataset>
+    <route
+            id="101"
+            departure_station="Zottegem"
+            departure_time="07:45:00"
+            arrival_station="Brussel-Noord"/>
+
+    <delay />
+</dataset>

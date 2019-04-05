@@ -1,0 +1,446 @@
+{
+  "version": "1.1",
+  "timestamp": "1554107462",
+  "connection": [
+    {
+      "id": "0",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554116100",
+        "vehicle": "BE.NMBS.IC534",
+        "platform": "9",
+        "platforminfo": {
+          "name": "9",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC534",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554118560",
+        "vehicle": "BE.NMBS.IC534",
+        "platform": "12",
+        "platforminfo": {
+          "name": "12",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2460",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "1",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554117300",
+        "vehicle": "BE.NMBS.IC2834",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC2834",
+        "direction": {
+          "name": "Bruges / Brugge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554119880",
+        "vehicle": "BE.NMBS.IC2834",
+        "platform": "12",
+        "platforminfo": {
+          "name": "12",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Bruges / Brugge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2580",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "2",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554117660",
+        "vehicle": "BE.NMBS.IC434",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC434",
+        "direction": {
+          "name": "Courtrai / Kortrijk"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554120360",
+        "vehicle": "BE.NMBS.IC434",
+        "platform": "11",
+        "platforminfo": {
+          "name": "11",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Courtrai / Kortrijk"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2700",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "3",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554117780",
+        "vehicle": "BE.NMBS.S23684",
+        "platform": "10",
+        "platforminfo": {
+          "name": "10",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/S23684",
+        "direction": {
+          "name": "Braine-le-Comte / ' s Gravenbrakel"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554120360",
+        "vehicle": "BE.NMBS.IC434",
+        "platform": "11",
+        "platforminfo": {
+          "name": "11",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Courtrai / Kortrijk"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2580",
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "time": "1554118260",
+              "platform": "16",
+              "platforminfo": {
+                "name": "16",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "arrived": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Braine-le-Comte / ' s Gravenbrakel"
+              },
+              "vehicle": "BE.NMBS.S23684",
+              "departureConnection": "http://irail.be/connections/8814001/20190401/S23684"
+            },
+            "departure": {
+              "time": "1554118560",
+              "platform": "10",
+              "platforminfo": {
+                "name": "10",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "left": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Courtrai / Kortrijk"
+              },
+              "vehicle": "BE.NMBS.IC434",
+              "departureConnection": "http://irail.be/connections/8814001/20190401/IC434",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+              }
+            },
+            "timeBetween": "300",
+            "station": "Brussels-South/Brussels-Midi",
+            "stationinfo": {
+              "locationX": "4.336531",
+              "locationY": "50.835707",
+              "id": "BE.NMBS.008814001",
+              "@id": "http://irail.be/stations/NMBS/008814001",
+              "name": "Brussels-South/Brussels-Midi",
+              "standardname": "Brussel-Zuid/Bruxelles-Midi"
+            },
+            "vehicle": "BE.NMBS.S23684",
+            "direction": {
+              "name": "Braine-le-Comte / ' s Gravenbrakel"
+            }
+          }
+        ]
+      },
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "4",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554118800",
+        "vehicle": "BE.NMBS.IC1535",
+        "platform": "9",
+        "platforminfo": {
+          "name": "9",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC1535",
+        "direction": {
+          "name": "Blankenberge"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554121320",
+        "vehicle": "BE.NMBS.IC1535",
+        "platform": "12",
+        "platforminfo": {
+          "name": "12",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Blankenberge"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2520",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "5",
+      "departure": {
+        "delay": "0",
+        "station": "Brussels-North",
+        "stationinfo": {
+          "locationX": "4.360846",
+          "locationY": "50.859663",
+          "id": "BE.NMBS.008812005",
+          "@id": "http://irail.be/stations/NMBS/008812005",
+          "name": "Brussels-North",
+          "standardname": "Brussel-Noord/Bruxelles-Nord"
+        },
+        "time": "1554119700",
+        "vehicle": "BE.NMBS.IC535",
+        "platform": "9",
+        "platforminfo": {
+          "name": "9",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8812005/20190401/IC535",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554122160",
+        "vehicle": "BE.NMBS.IC535",
+        "platform": "12",
+        "platforminfo": {
+          "name": "12",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2460",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    }
+  ]
+}

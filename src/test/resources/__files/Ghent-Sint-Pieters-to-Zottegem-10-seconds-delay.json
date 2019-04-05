@@ -1,0 +1,550 @@
+{
+  "version": "1.1",
+  "timestamp": "1554107543",
+  "connection": [
+    {
+      "id": "0",
+      "departure": {
+        "delay": "10",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554132960",
+        "vehicle": "BE.NMBS.P8968",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190401/P8968",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554134220",
+        "vehicle": "BE.NMBS.P8968",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "1260",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "1",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554133680",
+        "vehicle": "BE.NMBS.P8960",
+        "platform": "3",
+        "platforminfo": {
+          "name": "3",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190401/P8960",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554135780",
+        "vehicle": "BE.NMBS.P8960",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2100",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "2",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554134700",
+        "vehicle": "BE.NMBS.S521868",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190401/S521868",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554136680",
+        "vehicle": "BE.NMBS.S521868",
+        "platform": "1",
+        "platforminfo": {
+          "name": "1",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "1980",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "3",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554135120",
+        "vehicle": "BE.NMBS.IC3616",
+        "platform": "8",
+        "platforminfo": {
+          "name": "8",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190401/IC3616",
+        "direction": {
+          "name": "Landen"
+        },
+        "left": "0",
+        "walking": "0",
+        "alerts": {
+          "number": "2",
+          "alert": [
+            {
+              "id": "0",
+              "header": "Brux.-Nord/Brus.-Noord - Schaerbeek / Schaarbeek",
+              "description": "We are conducting work for you between Brux.-Nord/Brus.-Noord and Schaerbeek / Schaarbeek. Detailed information only available in French (FR) and in Dutch (NL).",
+              "lead": "Brux.-Nord/Brus.-Noord - Schaerbeek / Schaarbeek",
+              "startTime": "1552463160",
+              "endTime": "1555106340"
+            },
+            {
+              "id": "1",
+              "header": "Alost / Aalst: A train has disregarded a closed signal.",
+              "description": "Delays and cancellations are possible.Indefinite duration of the failure.Listen to the announcements, consult the automatic departure boards or plan your trip via the SNCB app or sncb.be for more information.",
+              "lead": "OLGPA[3269]",
+              "startTime": "1554106620",
+              "endTime": "1554155940"
+            }
+          ]
+        },
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554138720",
+        "vehicle": "BE.NMBS.IC2341",
+        "platform": "4",
+        "platforminfo": {
+          "name": "4",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Ostende / Oostende"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "3600",
+      "alerts": {
+        "number": "2",
+        "alert": [
+          {
+            "id": "0",
+            "header": "Brux.-Nord/Brus.-Noord - Schaerbeek / Schaarbeek",
+            "description": "We are conducting work for you between Brux.-Nord/Brus.-Noord and Schaerbeek / Schaarbeek. Detailed information only available in French (FR) and in Dutch (NL).",
+            "lead": "Brux.-Nord/Brus.-Noord - Schaerbeek / Schaarbeek",
+            "startTime": "1552463160",
+            "endTime": "1555106340"
+          },
+          {
+            "id": "1",
+            "header": "Alost / Aalst: A train has disregarded a closed signal.",
+            "description": "Delays and cancellations are possible.Indefinite duration of the failure.Listen to the announcements, consult the automatic departure boards or plan your trip via the SNCB app or sncb.be for more information.",
+            "lead": "OLGPA[3269]",
+            "startTime": "1554106620",
+            "endTime": "1554155940"
+          }
+        ]
+      },
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "time": "1554137460",
+              "platform": "4",
+              "platforminfo": {
+                "name": "4",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "arrived": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Landen"
+              },
+              "vehicle": "BE.NMBS.IC3616",
+              "departureConnection": "http://irail.be/connections/8895802/20190401/IC3616"
+            },
+            "departure": {
+              "time": "1554137820",
+              "platform": "5",
+              "platforminfo": {
+                "name": "5",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "left": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Ostende / Oostende"
+              },
+              "vehicle": "BE.NMBS.IC2341",
+              "departureConnection": "http://irail.be/connections/8895802/20190401/IC2341",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+              }
+            },
+            "timeBetween": "360",
+            "station": "Denderleeuw",
+            "stationinfo": {
+              "locationX": "4.071825",
+              "locationY": "50.891925",
+              "id": "BE.NMBS.008895802",
+              "@id": "http://irail.be/stations/NMBS/008895802",
+              "standardname": "Denderleeuw",
+              "name": "Denderleeuw"
+            },
+            "vehicle": "BE.NMBS.IC3616",
+            "direction": {
+              "name": "Landen"
+            }
+          }
+        ]
+      },
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "4",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554136080",
+        "vehicle": "BE.NMBS.P8963",
+        "platform": "8",
+        "platforminfo": {
+          "name": "8",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190401/P8963",
+        "direction": {
+          "name": "Renaix / Ronse"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554140100",
+        "vehicle": "BE.NMBS.L1668",
+        "platform": "2",
+        "platforminfo": {
+          "name": "2",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Zottegem"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "4020",
+      "vias": {
+        "number": "1",
+        "via": [
+          {
+            "id": "0",
+            "arrival": {
+              "time": "1554137820",
+              "platform": "3",
+              "platforminfo": {
+                "name": "3",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "arrived": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Renaix / Ronse"
+              },
+              "vehicle": "BE.NMBS.P8963",
+              "departureConnection": "http://irail.be/connections/8892601/20190401/P8963"
+            },
+            "departure": {
+              "time": "1554139140",
+              "platform": "5",
+              "platforminfo": {
+                "name": "5",
+                "normal": "1"
+              },
+              "isExtraStop": "0",
+              "delay": "0",
+              "canceled": "0",
+              "left": "0",
+              "walking": "0",
+              "direction": {
+                "name": "Zottegem"
+              },
+              "vehicle": "BE.NMBS.L1668",
+              "departureConnection": "http://irail.be/connections/8892601/20190401/L1668",
+              "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+              }
+            },
+            "timeBetween": "1320",
+            "station": "Oudenaarde",
+            "stationinfo": {
+              "locationX": "3.600386",
+              "locationY": "50.850116",
+              "id": "BE.NMBS.008892601",
+              "@id": "http://irail.be/stations/NMBS/008892601",
+              "standardname": "Oudenaarde",
+              "name": "Oudenaarde"
+            },
+            "vehicle": "BE.NMBS.P8963",
+            "direction": {
+              "name": "Renaix / Ronse"
+            }
+          }
+        ]
+      },
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    },
+    {
+      "id": "5",
+      "departure": {
+        "delay": "0",
+        "station": "Ghent-Sint-Pieters",
+        "stationinfo": {
+          "locationX": "3.710675",
+          "locationY": "51.035896",
+          "id": "BE.NMBS.008892007",
+          "@id": "http://irail.be/stations/NMBS/008892007",
+          "name": "Ghent-Sint-Pieters",
+          "standardname": "Gent-Sint-Pieters"
+        },
+        "time": "1554138300",
+        "vehicle": "BE.NMBS.S521869",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "departureConnection": "http://irail.be/connections/8892007/20190401/S521869",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "left": "0",
+        "walking": "0",
+        "occupancy": {
+          "@id": "http://api.irail.be/terms/unknown",
+          "name": "unknown"
+        }
+      },
+      "arrival": {
+        "delay": "0",
+        "station": "Zottegem",
+        "stationinfo": {
+          "locationX": "3.81441",
+          "locationY": "50.869102",
+          "id": "BE.NMBS.008895208",
+          "@id": "http://irail.be/stations/NMBS/008895208",
+          "standardname": "Zottegem",
+          "name": "Zottegem"
+        },
+        "time": "1554140340",
+        "vehicle": "BE.NMBS.S521869",
+        "platform": "5",
+        "platforminfo": {
+          "name": "5",
+          "normal": "1"
+        },
+        "canceled": "0",
+        "direction": {
+          "name": "Grammont / Geraardsbergen"
+        },
+        "arrived": "0",
+        "walking": "0"
+      },
+      "duration": "2040",
+      "occupancy": {
+        "@id": "http://api.irail.be/terms/unknown",
+        "name": "unknown"
+      }
+    }
+  ]
+}
