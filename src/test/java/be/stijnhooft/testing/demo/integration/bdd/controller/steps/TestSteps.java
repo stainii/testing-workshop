@@ -100,7 +100,7 @@ public class TestSteps {
         // nothing to do
     }
 
-    @When("I get all routes and their request status")
+    @When("I get all routes and their delay status")
     public void getAllRoutes() {
         allRoutesAndTheirDelayStatus = routeController.getAllRoutesAndTheirDelayStatus();
     }

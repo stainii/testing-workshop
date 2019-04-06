@@ -44,13 +44,6 @@
             <version>27.1-jre</version>
         </dependency>
 
-        <!-- selenium front-end test framework -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.14.0</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- End frameworks to make the demo application work -->
 
@@ -108,6 +101,14 @@
             <groupId>org.jbehave</groupId>
             <artifactId>jbehave-spring</artifactId>
             <version>4.0.4</version>
+        </dependency>
+        
+        <!-- selenium front-end test framework -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.14.0</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- Notice that we use JUnit, but that it's not defined in this list of dependencies.

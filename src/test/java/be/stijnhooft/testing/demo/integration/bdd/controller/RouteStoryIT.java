@@ -22,6 +22,8 @@ import java.util.List;
 public class RouteStoryIT extends JBehaveBaseRunner {
 
     protected List<String> storyPaths() {
-        return new StoryFinder().findPaths(CodeLocations.codeLocationFromClass(this.getClass()), "**/routes.story", "**/excluded*.story");
+        return new StoryFinder().findPaths(
+                CodeLocations.codeLocationFromClass(this.getClass()),
+                "**/routes.story", "**/excluded*.story");
     }
 }
